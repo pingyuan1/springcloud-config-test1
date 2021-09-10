@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active:
+      -dev
+
+---
+spring:
+  profiles: dev
+  application:
+    name: config-client-dev
+
+---
+spring:
+  profiles: test
+  application:
+    name: config-client-test
+
+---
+spring:
+  profiles: pro
+  application:
+    name: config-client-pro

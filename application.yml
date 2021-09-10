@@ -8,6 +8,8 @@ spring:
   profiles: dev
   application:
     name: config-client-dev
+    
+userName: pingyuan    
 
 ---
 spring:

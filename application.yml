@@ -8,6 +8,8 @@ spring:
   profiles: dev
   application:
     name: config-client-dev
+server:
+  port: 9002    
 
 ---
 spring:
